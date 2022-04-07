@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/goma6686/learningWebSockets#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "core-js": "^3.21.1",
     "express": "^4.17.3",
     "nodemon": "^2.0.15",
