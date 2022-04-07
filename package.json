@@ -1,0 +1,31 @@
+{
+  "name": "simplewebsocketapp",
+  "version": "1.0.0",
+  "description": "learning how web sockets work",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goma6686/learningWebSockets.git"
+  },
+  "author": "Tea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goma6686/learningWebSockets/issues"
+  },
+  "homepage": "https://github.com/goma6686/learningWebSockets#readme",
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
